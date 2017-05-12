@@ -28,8 +28,12 @@ html {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-     background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(0, 0, 0, .5)), url('img/landing.jpg') no-repeat top;
+    background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(0, 0, 0, .25)), url('img/landing.jpg') no-repeat top;
     background-size: cover;
+}
+
+.landing h1{
+    font-family: d
 }
 
 
