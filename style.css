@@ -23,7 +23,7 @@ p, li, address{
     font-family: Love Ya Like A Sister;
 }
 
-li{
+li, p{
     font-size:17px;
 }
 
@@ -89,6 +89,10 @@ address{
     background: #ffcccc;
 }
 
+#gif{
+    padding-top: 150px;
+}
+
 .gallery-section {
     height: 100%;
     padding-top: 150px;
@@ -109,6 +113,7 @@ address{
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    
 }
 
 .footer {
