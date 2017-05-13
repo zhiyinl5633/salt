@@ -8,6 +8,10 @@ html {
     height: 100%;
 }
 
+.container{
+    background:lightblue;
+}
+
 
 
 @media(min-width:767px) {
@@ -32,9 +36,7 @@ html {
     background-size: cover;
 }
 
-.landing h1{
-    font-family: d
-}
+
 
 
 .info-section {
