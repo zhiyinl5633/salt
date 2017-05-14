@@ -155,6 +155,11 @@ address {
     vertical-align: middle;
     display: table-cell;
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width:70%;
+    margin: auto;
+}
 
 @media(min-width: 768px) {
     #title {
@@ -218,7 +223,7 @@ address {
 html {
     width: 100%;
     height: 100%;
-    cursor: url('img/paw.png'), pointer;
+    cursor: url('img/pointer.png'), pointer;
 }
 
 h1 {
@@ -365,7 +370,7 @@ address {
     display: block;
     margin: auto;
     width:100%;
-    height: 100%
+    height: 100%;
 }
 }
 
