@@ -99,8 +99,7 @@ address {
     height: 100%;
     padding-top: 100px;
     text-align: center;
-    /*background: #ffcccc;*/
-    background:linear-gradient(#ffcccc, #dab3ff);
+    background: linear-gradient(#ffcccc, #dab3ff);
 }
 
 #gif {
@@ -150,18 +149,9 @@ address {
 }
 
 .footer {
-    background: #ffcccc;
+    background: linear-gradient(#ffcccc, #dab3ff);
     padding: 5px;
 }
-
-
-/*#footercolor{*/
-
-
-/*    color: #00324d;*/
-
-
-/*}*/
 
 .text-vertical-center {
     text-align: center;
@@ -169,15 +159,12 @@ address {
     display: table-cell;
 }
 
-.img-responsive{
+.img-responsive {
     display: block;
     margin: auto;
-    width:100%;
+    width: 100%;
     height: 100%;
 }
-
-
-
 
 @media(max-width: 767px){
       #title {
