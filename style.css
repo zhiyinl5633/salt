@@ -77,14 +77,20 @@ address{
 
 .info-section {
     height: 100%;
-    padding-top: 125px;
+    padding-top: 100px;
     text-align: center;
-    background: #fff;
+}
+
+.jumbotron{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 200px;
+   
 }
 
 .tips-section {
     height: 100%;
-    padding-top: 125px;
+    padding-top: 100px;
     text-align: center;
     background: #ffcccc;
 }
@@ -103,7 +109,7 @@ address{
 
 .gallery-section {
     height: 100%;
-    padding-top: 125px;
+    padding-top: 100px;
     text-align: center;
     background: #fff;
 }
@@ -112,15 +118,16 @@ address{
     height: 100%;
     background:#ffcccc;  
     padding:50px;
-    padding-top:125px;
+    padding-top:100px;
     padding-bottom: 125px;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 125px;
+    padding-top: 100px;
     text-align: center;
-    background: #fff;
+    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('img/bg.jpg') no-repeat top fixed;
+    background-size: cover;
     
 }
 
