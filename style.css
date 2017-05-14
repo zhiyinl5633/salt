@@ -100,6 +100,21 @@ address {
     padding-top: 100px;
     text-align: center;
     background: linear-gradient(#ffcccc, #dab3ff);
+    animation-name: bgcolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bgcolor {
+    0% {
+        background: linear-gradient(#ffcccc, #bf80ff);
+    }
+    50% {
+        background: linear-gradient(#ffcc99, #ff9999);
+    }
+    100% {
+        background: linear-gradient(#99ffcc, #9999ff);
+    }
 }
 
 #gif {
@@ -137,6 +152,21 @@ address {
     padding: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
+    animation-name: bgcolor2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bgcolor2 {
+    0% {
+        background: linear-gradient(#bf80ff, #ffcccc);
+    }
+    50% {
+        background: linear-gradient(#ff9999, #ffcc99);
+    }
+    100% {
+        background: linear-gradient(#9999ff, #99ffcc);
+    }
 }
 
 .contact-section {
@@ -166,8 +196,8 @@ address {
     height: 100%;
 }
 
-@media(max-width: 767px){
-      #title {
+@media(max-width: 767px) {
+    #title {
         font-size: 65px;
     }
     h1 {
@@ -184,7 +214,7 @@ address {
     }
     .jumbotron {
         padding: 50px;
-        background: linear-gradient( rgba(0,0,0, .65), rgba(0,0,0,.50)), url('img/infobg.jpg') no-repeat top fixed;
+        background: linear-gradient( rgba(0, 0, 0, .65), rgba(0, 0, 0, .50)), url('img/infobg.jpg') no-repeat top fixed;
         background-size: cover;
         color: white;
     }
@@ -216,7 +246,7 @@ address {
         margin: auto;
         width: 80%;
     }
-    address{
+    address {
         font-size: 20px;
     }
 }
