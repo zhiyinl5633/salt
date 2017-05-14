@@ -1,17 +1,13 @@
-body {
+body, html {
     width: 100%;
     height: 100%;
-}
-
-html {
-    width: 100%;
-    height: 100%;
+    cursor: url('img/paw.png'), pointer;
 }
 
 h1{
     font-family: kranky;
     font-size:75px;
-    color:grey;
+    color:#00324d;
 }
 
 h3{
@@ -23,8 +19,8 @@ p, li, address{
     font-family: Love Ya Like A Sister;
 }
 
-li, p{
-    font-size:17px;
+ul{
+    font-size:25px;
 }
 
 address{
@@ -46,10 +42,11 @@ address{
 }
 
 .landing-section {
+    width: 100%;
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('img/landing.jpg') no-repeat top;
+    background: linear-gradient( rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0)), url('img/landing.jpg') no-repeat top;
     background-size: cover;
 }
 
@@ -71,22 +68,25 @@ address{
     padding-bottom: 250px;
     font-family: Fredericka the Great;
     font-size: 125px;
-    color:grey;
+    color:black;
 }
 
 
 .info-section {
+    width: 100%;
     height: 100%;
     padding-top: 125px;
     text-align: center;
-    background: #fff;
+    background:linear-gradient(#99ffcc, #9999ff);
+    background-size: cover;
 }
 
 .tips-section {
+    width: 100%;
     height: 100%;
     padding-top: 125px;
     text-align: center;
-    background: #ffcccc;
+    background:linear-gradient(#9999ff, #99ffcc);
 }
 
 #gif{
@@ -95,6 +95,8 @@ address{
 
 #QA{
     font-family:coming soon;
+    font-size: large;
+    font-weight: bold;
 }
 
 .Q{
@@ -102,29 +104,56 @@ address{
 }
 
 .gallery-section {
+    width: 100%;
     height: 100%;
     padding-top: 125px;
     text-align: center;
-    background: #fff;
+    background:linear-gradient(#99ffcc, #9999ff);
 }
 
 #pets{
+    width: 100%;
     height: 100%;
-    background:#ffcccc;  
+    background:linear-gradient(#9999ff, #99ffcc);  
     padding:50px;
     padding-top:125px;
     padding-bottom: 125px;
 }
 
 .contact-section {
+    width: 100%;
     height: 100%;
     padding-top: 125px;
     text-align: center;
-    background: #fff;
+    background:linear-gradient(#99ffcc, #9999ff);
     
 }
 
 .footer {
-    background:#ffcccc; 
+    background:#669999; 
     padding: 5px;
+}
+#footercolor{
+    color: #00324d;
+}
+
+@media only screen and (min-width: 768px){
+    #title{
+        font-size: 85px;
+    }
+    h1{
+        font-size: 55px; 
+    }
+    p{
+        font-size: 10px;
+    }
+    li{
+        font-size: 17px;
+    }
+}
+@media only screen and (min-width: 992px){
+    
+}
+@media only screen and (max-width: 767px) {
+    
 }
