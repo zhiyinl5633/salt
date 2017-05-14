@@ -38,12 +38,12 @@ https://www.flickr.com/photos/ellerychen/8366274839 (flicker)
 Pig
 https://www.flickr.com/photos/ellerychen/8366275167/in/photostream/ (flicker)
 Pic of 6 adopted pets
-Name & Description (When hover)
+Name & Description
 Guinea-pig - Mochi
 http://hqwallpapers.com.ua/Uploads/7-5-2016/21783/thumb-chawka-morskaja-svunka-guinea-pig-zverek.jpg  (hqwallpapers)
-Bunny - Lucy
+Bunny - Bubz
 http://www.peta.org.au/wp-content/uploads/bunny-968855_1280.jpg?20161102113149 (peta)
-Parakeet - Charlie
+Parakeets - Cookie, V, Chim Chim
 http://www.webanimales.com/ficheros/2015/03/parrot-417967_6401-365x240.jpg (webanimales)
 Hamster - Felix
 https://s3-ap-northeast-1.amazonaws.com/petpedia/upload_by_admin/hamster_3_hamster_3.jpg (petpedia)
@@ -56,4 +56,4 @@ Contact
 Address
 5678 Bay Ridge Ave, Brooklyn,  NY 12345
 Footer
-Copyright c 2017 | Save A Life Today
+Copyright c 2017 | SALT
