@@ -143,7 +143,8 @@ address {
 
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
-    width: 70%;
+    width: 75%;
+    height: 100%;
     margin: auto;
 }
 
@@ -217,8 +218,8 @@ address {
     }
     .jumbotron {
         padding: 50px;
-        padding-top:50px;
-        padding-bottom: 50px;
+        padding-top:75px;
+        padding-bottom: 75px;
     }
     #psize {
         font-size: 30px;
@@ -252,6 +253,9 @@ address {
         display: block;
         margin: auto;
         width: 80%
+    }
+    .gallery-section{
+        padding-top: 75px;
     }
     .contact-section{
         padding-top: 100px;
