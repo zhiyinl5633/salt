@@ -218,11 +218,11 @@ address {
     }
     .jumbotron {
         padding: 50px;
-        padding-top:75px;
-        padding-bottom: 75px;
+        padding-top:150px;
+        padding-bottom: 200px;
     }
     #psize {
-        font-size: 30px;
+        font-size: 40px;
     }
     #list {
         font-size: 21px;
@@ -243,7 +243,7 @@ address {
     }
     .well {
         font-size: 14px;
-        width: 80%;
+        width: 100%;
     }
     .tips-section {
         width: auto;
