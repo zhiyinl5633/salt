@@ -86,10 +86,6 @@ address {
     /*background:linear-gradient(#99ffcc, #9999ff);*/
 }
 
-#infotxt{
-    vertical-align: center;
-}
-
 .jumbotron {
     margin-left: 100px;
     margin-right: 100px;
@@ -181,7 +177,7 @@ address {
     height: 100%;
     padding-top: 250px;
     text-align: center;
-    background: linear-gradient( rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url('img/bg.jpg') no-repeat top fixed;
+    background: linear-gradient( rgba(255, 255, 255, .75), rgba(255, 255, 255, .5)), url('img/bg.jpg') no-repeat top fixed;
     background-size: cover;
 }
 
@@ -209,8 +205,7 @@ address {
         font-size: 125px;
     }
     h1 {
-        font-size: 75px;
-        vertical-align: middle;
+        font-size: 55px;
     }
     li {
         font-size: 18px;
@@ -223,11 +218,11 @@ address {
     }
     .jumbotron {
         padding: 50px;
-        padding-top:150px;
-        padding-bottom: 200px;
+        padding-top:75px;
+        padding-bottom: 75px;
     }
     #psize {
-        font-size: 40px;
+        font-size: 30px;
     }
     #list {
         font-size: 21px;
@@ -263,7 +258,7 @@ address {
         padding-top: 75px;
     }
     .contact-section{
-        padding-top: 300px;
+        padding-top: 250px;
     }
         address{
         font-size: 30px;
