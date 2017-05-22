@@ -177,7 +177,7 @@ address {
     height: 100%;
     padding-top: 250px;
     text-align: center;
-    background: linear-gradient( rgba(255, 255, 255, .75), rgba(255, 255, 255, .5)), url('img/bg.jpg') no-repeat top fixed;
+    background: linear-gradient( rgba(255, 255, 255, .85), rgba(255, 255, 255, .5)), url('img/bg.jpg') no-repeat top fixed;
     background-size: cover;
 }
 
